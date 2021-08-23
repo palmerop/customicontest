@@ -28,7 +28,7 @@ map.loadImage(
 'https://github.com/palmerop/customicontest/blob/885b343d17dd12fca341c52d2278144b7f6dc6b1/info.png',
 (error, image) => {
 if (error) throw error;
-map.addImage('custom-marker', image);
+map.addImage('info', image);
 // Add a GeoJSON source with 2 points
 map.addSource('points', {
 'type': 'geojson',
